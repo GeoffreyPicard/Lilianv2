@@ -1,0 +1,24 @@
+.description {
+	max-width: 1080px;
+	padding: 40px;
+	margin: 0 auto;
+}
+
+.title {
+	font-size: 2rem;
+	text-align: center;
+	font-family: 'Circular Bold';
+	margin-bottom: 50px;
+}
+
+.text {
+	font-size: 1rem;
+	font-family: 'Circular Std';
+	line-height: 2vw;
+	letter-spacing: 0.08vw;
+}
+
+.link {
+	text-decoration: underline;
+	font-size: 1rem;
+}

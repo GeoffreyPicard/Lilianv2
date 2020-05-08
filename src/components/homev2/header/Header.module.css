@@ -1,0 +1,37 @@
+.headerv2 {
+	height: 140px;
+	width: 100%;
+	background-color: #32373d;
+	color: rgba(255, 255, 255, 0.6);
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-word {
+	margin-left: 20px;
+}
+
+.menu-wrapper {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.contact {
+	margin-right: 60px;
+}
+
+.logo-wrapper {
+	margin-top: -10px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	font-size: 1.4rem;
+}
+
+.commune {
+	margin-left: 40px;
+	width: 150px;
+}
