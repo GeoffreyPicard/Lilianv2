@@ -1,63 +1,75 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import { sideBarLinks } from '../../utils/sideBarLinks';
 import { Link } from 'react-router-dom';
-import style from './Sidebar.module.css';
+import style from './SidebarMobile.module.css';
 import Commune from '../../asset/img/commune.png';
 import Laurier from '../../asset/img/laurier.png';
 import StationVerte from '../../asset/img/station_verte.png';
+import { activitySwitch } from './sidebarSwitch'
 
-const activitySwitch = value => {
-  switch (value) {
-    case 'via':
-      return 'VIA FERRATTA';
-    case 'cerf-volant':
-      return 'CERF VOLANT';
-    case 'trottinette':
-      return 'TROTINETTE DE DESCENTE';
-    case 'randonnee':
-      return 'RANDONNÉES';
-    case 'tir-a-larc':
-      return "TIR À l'ARC";
-    case 'accrobranche':
-      return 'ACCROBRANCHE';
-    case 'canyoning':
-      return 'CANYONING';
-    case 'vtt':
-      return 'VTT';
-    case 'disc-golf':
-      return 'DISC-GOLF';
-    case 'sport-deau':
-      return "SPORT D'EAU";
-    case 'peche':
-      return 'PÊCHE';
-    case 'trampoline':
-      return 'TRAMPOLINE';
-    case 'vtt-electrique':
-      return 'VTT ELECTRIQUE';
+
+const SidebarMobile = () => {
+  const [checkBox, setCheckBox] = useState(false);
+  const deselect = () => {
+    setCheckBox(!checkBox)
   }
-};
-
-const Sidebar = () => {
   return (
-    <div className={style.sidenav}>
-      <Link to='/' onClick={() => window.scrollTo(0, 0)}>
-        <div className={style.logo}>
-          <img className={style.commune} src={Commune} alt="commune logo argences" />
-          <img className={style['station-verte']} src={StationVerte} alt="logo ville argences aubrac" />
+    <>
+      {/* <div className={style.sidenav}>
+        <div className={style['list-icon']}>
+          {!open && <i onClick={() => setOpen(true)} class="fa fa-bars" aria-hidden="true"></i>}
+          {open && <i onClick={() => setOpen(false)} class="fa fa-times" aria-hidden="true"></i>}
         </div>
-      </Link>
-      {sideBarLinks.map(item => {
+        <div className={style.title}>Activités</div>
+        <div className={style.logos}> */}
+      {/* <Link to='/' onClick={() => window.scrollTo(0, 0)}> */}
+
+      {/* </Link> */}
+      {/* </div> */}
+      {/* {sideBarLinks.map(item => {
         return (
           <Link to={`/activite/${item}`} className={style.link} onClick={() => window.scrollTo(0, 0)}>
             <div className={style['link-name']}>
               <div >{activitySwitch(item)}</div>
-            </div>
+            </div>  
           </Link>
         );
-      })}
-      <img className={style.laurier} src={Laurier} alt="logo ville argences aubrac" />
-    </div>
+      })} */}
+
+      {/* </div> */}
+      <div class={style}>
+
+        <nav className={style.navigation} role="navigation">
+          <div className={style.menuToggle}>
+            <input type="checkbox" checked={checkBox} onClick={() => deselect()} />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul className={style.menu}>
+              {sideBarLinks.map(item => {
+                return (
+                  <Link to={`/activite/${item}`} className={style.link} onClick={() => {
+                    deselect()
+                    window.scrollTo(0, 0)
+                  }
+                  }>
+                    <li className={style.links}>{item}</li>
+                  </Link>
+                );
+              })}
+            </ul>
+          </div>
+          <div className={style['menu-text']}>Liste d'activités</div>
+          <img className={style.commune} src={Commune} alt="commune logo argences" />
+        </nav>
+        {/* <div className={style.logos}>
+          <img className={style.laurier} src={Laurier} alt="logo ville argences aubrac" />
+          <img className={style.commune} src={Commune} alt="commune logo argences" />
+          <img className={style['station-verte']} src={StationVerte} alt="logo ville argences aubrac" />
+        </div> */}
+      </div>
+    </>
   );
 };
 
-export default Sidebar;
+export default SidebarMobile;

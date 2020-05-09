@@ -11,10 +11,9 @@
 }
 
 .wrapper {
-	/* height: 500px; */
-	-webkit-box-shadow: 0px 7px 28px -6px rgba(0,0,0,0.30);
-	-moz-box-shadow: 0px 7px 28px -6px rgba(0,0,0,0.30);
-	box-shadow: 0px 7px 28px -6px rgba(0,0,0,0.30);
+	-webkit-box-shadow: 0px 7px 20px -6px rgba(0,0,0,0.30);
+	-moz-box-shadow: 0px 7px 20px -6px rgba(0,0,0,0.30);
+	box-shadow: 0px 7px 20px -6px rgba(0,0,0,0.30);
 }
 
 .header {
@@ -77,9 +76,9 @@
 .infos-box {
 	padding: 20px;
 	width: 450px;
-	-webkit-box-shadow: 0px 7px 28px -6px rgba(0,0,0,0.30);
-	-moz-box-shadow: 0px 7px 28px -6px rgba(0,0,0,0.30);
-	box-shadow: 0px 7px 28px -6px rgba(0,0,0,0.30);
+	-webkit-box-shadow: 0px 7px 20px -6px rgba(0,0,0,0.30);
+	-moz-box-shadow: 0px 7px 20px -6px rgba(0,0,0,0.30);
+	box-shadow: 0px 7px 20px -6px rgba(0,0,0,0.30);
 }
 
 .icon-subject {
@@ -102,4 +101,58 @@
 	font-family: 'Circular Std';
 	font-size: 1.1em;
 	margin-bottom: 2px;
+}
+
+
+@media (max-width: 992px) {
+  .title {
+		font-size: 1.3rem;
+		font-weight: bold;
+	}
+	
+	.name {
+		font-size: 1.4rem;
+	}
+
+	.diplome {
+		font-size: 0.9rem;
+	}
+
+	.contacts {
+		max-width: 1080px;
+		margin: 30px auto;
+	}
+
+	.info-right {
+		font-size: 1em;
+	}
+
+	.infos-wrapper {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		justify-content: space-around;
+		padding-bottom: 0px;
+		height: 100%;
+	}
+
+	.infos-box {
+		padding: 5%;	
+		width: 80%;
+		margin: 5% 5% 0% 5%;
+		-webkit-box-shadow: 0px 7px 10px -6px rgba(0,0,0,0.30);
+		-moz-box-shadow: 0px 7px 10px -6px rgba(0,0,0,0.30);
+		box-shadow: 0px 7px 10px -6px rgba(0,0,0,0.30);
+	}
+
+	.wrapper {
+		-webkit-box-shadow: 0px 7px 20px -6px rgba(0,0,0,0.0);
+		-moz-box-shadow: 0px 7px 20px -6px rgba(0,0,0,0.0);
+		box-shadow: 0px 7px 20px -6px rgba(0,0,0,0.0);
+	}
+
+	.icon-subject {
+		display: flex;
+		padding: 5px;
+	}
 }

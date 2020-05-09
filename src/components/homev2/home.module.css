@@ -1,10 +1,15 @@
 .page-wrapper {
 	display: flex;
-	padding-left: 20px;
-	padding-right: 20px;
 }
 
 .main-wrapper {
 	width: 100%;
 	margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+	.page-wrapper {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }

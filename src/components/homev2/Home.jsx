@@ -3,19 +3,9 @@ import Background from '../../asset/img/randonnee/background.jpg';
 import Welcome from '../welcome/Welcome';
 import style from './home.module.css';
 
-const background = {
-	backgroundImage: `url(${Background})`,
-	backgroundAttachment: 'fixed',
-	backgroundPosition: 'center',
-	backgroundRepeat: 'no-repeat',
-	backgroundSize: 'cover',
-	height: '100vh'
-};
-
 const Home = () => {
 	return (
 		<section className={style['page-wrapper']}>
-			<section style={background} />
 			<div className={style['main-wrapper']}>
 				<Welcome />
 			</div>

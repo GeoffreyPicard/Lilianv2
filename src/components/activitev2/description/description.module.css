@@ -22,3 +22,20 @@
 	text-decoration: underline;
 	font-size: 1rem;
 }
+
+@media (max-width: 992px) {
+	.description {
+		max-width: 1080px;
+		padding: 30px;
+		margin: 0 auto;
+	}
+
+	.text {
+		line-height: 20px;
+	}
+
+	.title {
+		margin: 0 0 30px 0;
+		font-size: 1.7rem;
+	}
+}

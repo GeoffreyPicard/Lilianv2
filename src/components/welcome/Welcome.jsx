@@ -2,11 +2,19 @@ import React from 'react'
 import Slider from './slider/Slider'
 import Map from './map/Map'
 import style from './Welcome.module.css'
+import Commune from '../../asset/img/commune.png';
+import Laurier from '../../asset/img/laurier.png';
+import logo from '../../asset/icon.png'
 
 const Welcome = () => {
   return (
     <div>
       <div className={style.pres}>
+        <div className={style.logos}>
+          <img className={style.commune} src={Commune} alt="commune logo argences" />
+          <img className={style.logo} src={logo} />
+          <img className={style.laurier} src={Laurier} alt="logo ville argences aubrac" />
+        </div>
         <div className={style.title}>
           Bienvenue à Argences en Aubrac !
         </div>
@@ -27,7 +35,7 @@ const Welcome = () => {
           </div>
         </div>
         <div className={style.map}>
-          {/* <Map /> */}
+          <Map />
         </div>
       </div>
     </div >
