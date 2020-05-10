@@ -7,19 +7,13 @@ import Contacts from './components/contacts/Contacts';
 import SidebarDesktop from './components/sidebar/SidebarDesktop';
 import SidebarMobile from './components/sidebar/SidebarMobile';
 import Footer from './components/footer/Footer';
-import { Desktop, Mobile, useIsDesktop } from './utils/responsive'
+import { Desktop, Mobile } from './utils/responsive'
 import './index.css';
+import style from './index.module.css'
+import Header from './components/homev2/header/Header'
 
 const app = {
 	width: '100%'
-};
-
-const pageMain = {
-	marginLeft: '230px'
-};
-
-const pageMainMobile = {
-	marginLeft: '0px'
 };
 
 const line = {
@@ -29,9 +23,11 @@ const line = {
 };
 
 const Wrapper = () => {
-	const isDesktop = useIsDesktop()
 	return (
-		<div style={isDesktop ? pageMain : pageMainMobile}>
+		<div className={style['main-page']}>
+			<Desktop>
+				<Header />
+			</Desktop>
 			<Route exact path="/" component={Home} />
 			<Route exact path="/contacts" component={Contacts} />
 			<Route exact path="/activite/:activite" component={Activitev2} />

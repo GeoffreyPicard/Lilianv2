@@ -4,6 +4,7 @@ import Informations from './informations/Informations';
 import Photos from './photos/Photos';
 import { data } from '../../utils/data';
 import { sideBarLinks } from '../../utils/sideBarLinks';
+import MetaTags from 'react-meta-tags';
 
 const Activite = ({ match }) => {
 	const activity = match.params.activite
@@ -12,6 +13,10 @@ const Activite = ({ match }) => {
 	}
 	return (
 		<>
+			<MetaTags>
+				<title>{data[activity].metaTags.title}</title>
+				<meta name="description" content={data[activity].metaTags.title} />
+			</MetaTags>
 			<Description
 				title={data[activity].description.title}
 				text={data[activity].description.text}

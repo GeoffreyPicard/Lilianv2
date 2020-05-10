@@ -18,7 +18,7 @@ const Map = () => {
         style="mapbox://styles/geoffreypicard/ck9tw0quz0r531imlt5wdxq38"
         center={[2.759046, 44.803210]}
         containerStyle={{
-          height: isDesktop ? '400px' : '100%',
+          height: isDesktop ? '300px' : '100%',
           width: isDesktop ? '400px' : '100%',
         }}
       >

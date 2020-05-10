@@ -1,4 +1,9 @@
-.main-page{
-  width: 100%;
+.main-page {
   margin-left: 230px;
+}
+
+@media (max-width: 992px) {
+	.main-page {
+    margin-left: 0px;
+  }
 }

@@ -3,6 +3,7 @@
   height: 400px;
   overflow: hidden;
   position: relative;
+  margin: 0 auto;
 }
 
 .img {

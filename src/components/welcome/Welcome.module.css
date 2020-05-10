@@ -1,13 +1,14 @@
 .map-wrapper {
   max-width: 1080px;
   margin: 80px auto;
+  height: 250px;
   display: flex;
   justify-content: space-between;
 }
 
 .logos {
   display: flex;
-  justify-content: space-between;
+  justify-content:  center;
   align-items: center;
   width: 100%;
 }
@@ -33,14 +34,7 @@
 	text-align: center;
   font-family: 'Circular Bold';
   margin-bottom: 30px;
-  font-weight: bold;
 }
-
-.pres {
-  max-width: 1080px;
-  margin: 70px auto;
-}
-
 
 .commune {
   width: 160px;
@@ -76,6 +70,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 500px;
   }
 
   .text-wrapper {
@@ -86,6 +81,5 @@
   .map {
     margin-top: 20px;
     width: 100%;
-    /* height: 200px; */
   }
 }

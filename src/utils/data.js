@@ -11,6 +11,10 @@ export const data = {
 			subtitle2: ['Toute l’année'],
 			title3: 'Tarifs',
 			subtitle3: ['Gratuit']
+		},
+		metaTags: {
+			title: 'Vtt de descente',
+			description: 'Venez découvrir le VTT de descente dans les gorges de la Truyère sur pistes de la Cadène.'
 		}
 	},
 	via: {
@@ -25,6 +29,10 @@ export const data = {
 			subtitle2: ['Site en libre accès toute l’année', 'Encadrement sur réservation toute l’année', 'Location de matériel sur réservation toute l’année'],
 			title3: 'Tarifs',
 			subtitle3: ['À partir de 10€']
+		},
+		metaTags: {
+			title: 'Via ferrata',
+			description: 'La Via Ferrata du Bois des Baltuergues vous offre 2 parcours pour découvrir les Gorges de la Truyère.'
 		}
 	},
 	'cerf-volant': {
@@ -39,6 +47,10 @@ export const data = {
 			subtitle2: ['Du dimanche 01/07/2018 au vendredi 31/08/2018', 'Toute l\'année sur réservation'],
 			title3: 'Tarifs',
 			subtitle3: ['À partir de 10€']
+		},
+		metaTags: {
+			title: 'Cerf-volant',
+			description: 'Le cerf-volant est une activité de pleine nature, alliant adresse, précision et technique.'
 		}
 	},
 	trottinette: {
@@ -53,6 +65,10 @@ export const data = {
 			subtitle2: ['Site en libre accès toute l’année', 'Encadrement sur réservation toute l’année', 'Location de matériel sur réservation toute l’année'],
 			title3: 'Tarifs',
 			subtitle3: ['À partir de 10€']
+		},
+		metaTags: {
+			title: 'Trottinette tout-terrain',
+			description: 'Venez vivre la TROT\' ARGENCES EXPERIENCE !'
 		}
 	},
 	randonnee: {
@@ -67,6 +83,10 @@ export const data = {
 			subtitle2: ['Parcours en libre accès'],
 			title3: 'Tarifs',
 			subtitle3: ['Gratuit', 'Fiches à partir de 1€']
+		},
+		metaTags: {
+			title: 'Randonnée',
+			description: 'Vous aimez marcher ? Argences en Aubrac est votre destination !'
 		}
 	},
 	'tir-a-larc': {
@@ -81,6 +101,10 @@ export const data = {
 			subtitle2: ['Toute l’année sur réservation', 'L’été en initiation'],
 			title3: 'Tarifs',
 			subtitle3: ['À partir de 15€']
+		},
+		metaTags: {
+			title: 'Tir à l\'arc',
+			description: 'Venez tester votre agilité au tir à l\'arc, sport à part entière et discipline ancestrale !'
 		}
 	},
 	accrobranche: {
@@ -95,6 +119,10 @@ export const data = {
 			subtitle2: ['Du 01/07 au 31/08 tous les jours sur réservation', 'Vacances scolaires sur réservation uniquement'],
 			title3: 'Tarifs',
 			subtitle3: ['À partir de 12 €']
+		},
+		metaTags: {
+			title: 'Accrobranche',
+			description: 'Prenez de la hauteur dans les arbres, dans un cadre sauvage et préservé ou vous évolurez en autonomie.'
 		}
 	},
 	canyoning: {
@@ -109,6 +137,10 @@ export const data = {
 			subtitle2: ['De Juin à septembre en fonction des conditions météos'],
 			title3: 'Tarifs',
 			subtitle3: ['À partir de 48€', 'Tarifs dégressifs']
+		},
+		metaTags: {
+			title: 'Canyoning',
+			description: 'Le canyon de l’Argence situé dans un site grandiose est devenu incontournable pour les amateurs de sensations fortes.'
 		}
 	},
 	'disc-golf': {
@@ -123,6 +155,10 @@ export const data = {
 			subtitle2: ['Du 1/07 au 31/08 location matériel', 'Toute l’année en libre accès', 'Location de matériel sur réservation'],
 			title3: 'Tarifs',
 			subtitle3: ['À partir de 4€']
+		},
+		metaTags: {
+			title: 'Disc-golf',
+			description: 'Découvrez une nouvelle discipline, le disc-golf, sur un parcours naturel au plan d\'eau de la Vignotte à sainte Geneviève sur Argence.'
 		}
 	},
 	'sport-deau': {
@@ -137,6 +173,10 @@ export const data = {
 			subtitle2: ['Du 01/07 au 31/08'],
 			title3: 'Tarifs',
 			subtitle3: ['À partir de 4€']
+		},
+		metaTags: {
+			title: 'Sports d\'eau',
+			description: 'Au plan d’eau de Sainte Geneviève sur Argence ou sur le lac de Sarrans, venez profiter d’un moment de détente et de balade en kayak ou en stand up paddle.'
 		}
 	},
 	peche: {
@@ -151,6 +191,10 @@ export const data = {
 			subtitle2: ['Du 01/07 au 31/08'],
 			title3: 'Tarifs',
 			subtitle3: ['À partir de 4€']
+		},
+		metaTags: {
+			title: 'Pêche',
+			description: 'La pêche est votre passion ? Argences en Aubrac est votre destination !'
 		}
 	},
 	trampoline: {
@@ -165,6 +209,10 @@ export const data = {
 			subtitle2: ['Sur réservation Juillet Août'],
 			title3: 'Tarifs',
 			subtitle3: ['À partir de 5€']
+		},
+		metaTags: {
+			title: 'Trampoline',
+			description: 'Venez vivre une expérience à rebondissement !'
 		}
 	},
 	'vtt-electrique': {
@@ -180,6 +228,10 @@ export const data = {
 			subtitle2: ['Toute l\'année sur réservation'],
 			title3: 'Tarifs',
 			subtitle3: ['Sur demande', 'Tarif de groupe', 'À la demi-journée', 'À la journée', 'À la semaine']
+		},
+		metaTags: {
+			title: 'Trampoline',
+			description: 'Parcourez les paysages d\'Aubrac'
 		}
 	},
 };

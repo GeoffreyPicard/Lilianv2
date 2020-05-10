@@ -1,22 +1,32 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Logo } from './test.js';
 import style from './Header.module.css';
+import Commune from '../../../asset/img/commune.png';
+import StationVerte from '../../../asset/img/station_verte.png';
 import Laurier from '../../../asset/img/laurier.png';
+import { Link } from 'react-router-dom';
+
 
 const Header = () => {
 	return (
-		<section>
-			<div className={style.headerv2}>
-				<Link to="/">
-					<div className={style['logo-wrapper']}>
-						<Logo width="90px" height="55px" />
-						<div>Argences en Aubrac sport nature</div>
-					</div>
-				</Link>
-				{/* <img className="laurier" src={Laurier} alt="logo ville argences aubrac" /> */}
+		<div className={style['desktop-header']}>
+			<div className={style.logos}>
+				<div className={style['title-wrapper']}>
+					<img className={style.commune} src={Commune} alt="commune logo argences" />
+					<Link to='/' onClick={() => {
+						window.scrollTo(0, 0)
+					}
+					}>
+						<div className={style.title}>
+							Argences en aubrac
+							</div>
+					</Link>
+				</div>
+				<div className={style['logos-right']}>
+					<img className={style.laurier} src={Laurier} alt="logo ville argences aubrac" />
+					<img className={style['station-verte']} src={StationVerte} alt="logo ville argences aubrac" />
+				</div>
 			</div>
-		</section>
+		</div>
 	);
 };
 
