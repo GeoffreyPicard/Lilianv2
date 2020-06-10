@@ -1,15 +1,15 @@
 export const sideBarLinks = [
-	'cerf-volant',
-	'via',
+	'vtt-electrique',
 	'trottinette',
-	'randonnee',
-	'tir-a-larc',
 	'accrobranche',
+	'via',
 	'canyoning',
-	'vtt',
-	'disc-golf',
+	'tir-a-larc',
+	'cerf-volant',
+	'randonnee',
 	'sport-deau',
 	'peche',
+	'disc-golf',
 	'trampoline',
-	'vtt-electrique'
+	'vtt',
 ];

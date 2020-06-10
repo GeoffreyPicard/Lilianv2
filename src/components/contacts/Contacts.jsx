@@ -1,29 +1,46 @@
 import React, { Component } from 'react';
 import style from './contacts.module.css';
-import background from '../../asset/img/prof.jpg'
+import background from '../../asset/img/prof1.png'
 import profile from '../../asset/img/profile.png';
+import aloaPhoto from '../../asset/img/aloa_logo.png';
+
+const lilian = {
+	photo: profile,
+	diplome: 'Educateur sportif',
+	name: 'Lilian Fabre',
+	email: 'fabrelilian@argencesenaubrac.fr',
+	adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
+}
+
+const aloa = {
+	photo: aloaPhoto,
+	diplome: 'Educateur sportif BE escalade',
+	name: 'Serge Laborie',
+	email: 'aloanature@gmail.com',
+	adress: ['Route du pont de mels', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
+}
 
 const Contacts = () => {
 	const url = window.location.href
-	let email = 1
+	let choice = lilian
 	if (url.indexOf("accrobranche") > -1 || url.indexOf("via") > -1 || url.indexOf("canyoning") > -1) {
-		email = 0
+		choice = aloa
 	}
 	return (
 		<section className={style.contacts}>
 			<div className={style.title}>
-				Contacts
+				Contact
 				</div>
 			<div className={style.wrapper}>
 				<div className={style.header}>
 					<div className={style['center-cropped']}>
-						<img classNameme={style.img} src={background} ></img>
+						<img className={style.img} src={background} ></img>
 					</div>
-					<img className={style.profilePhoto} src={profile} alt="profile" />
+					<img className={style.profilePhoto} src={choice.photo} alt="profile" />
 				</div>
 				<div className={style['profile-wrapper']}>
-					<div className={style.name}>Lilian Fabre</div>
-					<div className={style.diplome}>Educateur sportif</div>
+					<div className={style.name}>{choice.name}</div>
+					<div className={style.diplome}>{choice.diplome}</div>
 				</div>
 				<div className={style['infos-wrapper']}>
 					<div className={style['infos-box']}>
@@ -33,20 +50,9 @@ const Contacts = () => {
 							</div>
 							<div>
 								<div className={style['type-right']}>ADRESSE</div>
-								<div>
-									<div className={style['info-right']}>
-										Service des sports de la commune d'Argences en Aubrac
-								</div>
-									<div className={style['info-right']}>
-										Mairie – Place des Tilleuls
-								</div>
-									<div className={style['info-right']}>
-										Ste Geneviève sur Argence
-								</div>
-									<div className={style['info-right']}>
-										12420 Argences-en-Aubrac
-								</div>
-								</div>
+								{choice.adress.map(item => {
+									return <div className={style['info-right']}>{item}</div>
+								})}
 							</div>
 						</div>
 					</div>
@@ -72,9 +78,7 @@ const Contacts = () => {
 										EMAIL
 									</div>
 									<div className={style['info-right']}>
-										{email ? (<div>
-											fabrelilian@argencesenaubrac.fr
-										</div>) : <div>aloanature@gmail.com</div>}
+										{choice.email}
 									</div>
 								</div>
 								<div>

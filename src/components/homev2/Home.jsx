@@ -7,7 +7,7 @@ const Home = () => {
 	return (
 		<section className={style['page-wrapper']}>
 			<MetaTags>
-				<title>ACCUEIL</title>
+				<title>Argence en Aubrac pôle d'activités pleine nature</title>
 				<meta name="description" content="Page d\'accueil argences aubrac sport nature" />
 			</MetaTags>
 			<div className={style['main-wrapper']}>

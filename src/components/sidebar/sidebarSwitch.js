@@ -1,13 +1,13 @@
 export const activitySwitch = value => {
   switch (value) {
     case 'via':
-      return 'VIA FERRATTA';
+      return 'VIA FERRATA';
     case 'cerf-volant':
       return 'CERF VOLANT';
     case 'trottinette':
-      return 'TROTINETTE DE DESCENTE';
+      return 'TROTINETTE ELECTRIQUES';
     case 'randonnee':
-      return 'RANDONNÉES';
+      return 'RANDONNÉE';
     case 'tir-a-larc':
       return "TIR À l'ARC";
     case 'accrobranche':
@@ -15,7 +15,7 @@ export const activitySwitch = value => {
     case 'canyoning':
       return 'CANYONING';
     case 'vtt':
-      return 'VTT';
+      return 'VTT DE DESCENTE';
     case 'disc-golf':
       return 'DISC-GOLF';
     case 'sport-deau':

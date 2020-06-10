@@ -14,7 +14,7 @@ const Welcome = () => {
           </div>
           <div className={style.text}>
             Situé au sud du massif central, dans le Parc Naturel Régional de l’Aubrac, le pôle pleine nature d’Argences en Aubrac vous accueille.
-            Les hauts-plateaux de l’Aubrac proposent aux nombreux randonneurs pédestres, à vélo ou trottinettes électriques, de vastes étendues désertiques donnant une impression de bout du monde.
+            Les hauts-plateaux de l’Aubrac proposent aux nombreux randonneurs à pied, à vélo ou trottinettes électriques, de vastes étendues désertiques donnant une impression de bout du monde.
             Non loin de l’Aubrac, vous pourrez découvrir les Gorges de la Truyère ; dans un écrin de verdure des parois abruptes font la joie des grimpeurs (accrobranche, escalade, via ferrata…) et les rivières sont des lieux propices aux sports aquatiques (canyoning, pêche, stand up paddle, pédalos…).
           </div>
 

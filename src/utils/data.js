@@ -44,9 +44,9 @@ export const data = {
 			title1: 'Prestations',
 			subtitle1: ['Initiation', 'Encadrement', 'Cerf-volant fourni'],
 			title2: 'Ouverture',
-			subtitle2: ['Du dimanche 01/07/2018 au vendredi 31/08/2018', 'Toute l\'année sur réservation'],
+			subtitle2: ['Toute l\'année sur réservation'],
 			title3: 'Tarifs',
-			subtitle3: ['À partir de 10€']
+			subtitle3: ['À partir de 5€']
 		},
 		metaTags: {
 			title: 'Cerf-volant',
@@ -62,9 +62,9 @@ export const data = {
 			title1: 'Prestations',
 			subtitle1: ['Encadrement', 'Location de matériel'],
 			title2: 'Ouverture',
-			subtitle2: ['Site en libre accès toute l’année', 'Encadrement sur réservation toute l’année', 'Location de matériel sur réservation toute l’année'],
+			subtitle2: ['Encadrement sur réservation toute l’année', 'Location de matériel sur réservation toute l’année'],
 			title3: 'Tarifs',
-			subtitle3: ['À partir de 10€']
+			subtitle3: ['À partir de 25€']
 		},
 		metaTags: {
 			title: 'Trottinette tout-terrain',
@@ -186,11 +186,11 @@ export const data = {
 		},
 		informations: {
 			title1: 'Prestations',
-			subtitle1: ['Encadrement', 'Location de matériel'],
+			subtitle1: ['Encadrement'],
 			title2: 'Ouverture',
-			subtitle2: ['Du 01/07 au 31/08'],
+			subtitle2: ['Dates d\'ouverture de la pêche'],
 			title3: 'Tarifs',
-			subtitle3: ['À partir de 4€']
+			subtitle3: ['Tarif carte de pêche']
 		},
 		metaTags: {
 			title: 'Pêche',
