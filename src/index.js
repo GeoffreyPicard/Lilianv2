@@ -5,7 +5,7 @@ import Home from './components/homev2/Home';
 import Activitev2 from './components/activitev2/Activite';
 import Contacts from './components/contacts/Contacts';
 import SidebarDesktop from './components/sidebar/SidebarDesktop';
-import SidebarMobile from './components/sidebar/SidebarMobile';
+import SidebarMobile from './components/sidebar/SideBarMobile';
 import Footer from './components/footer/Footer';
 import { Desktop, Mobile } from './utils/responsive'
 import './index.css';
