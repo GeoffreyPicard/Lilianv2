@@ -5,6 +5,9 @@ import Photos from './photos/Photos';
 import { data } from '../../utils/data';
 import { sideBarLinks } from '../../utils/sideBarLinks';
 import MetaTags from 'react-meta-tags';
+import Contacts from '../contacts/Contacts';
+import style from './activite.module.css'
+
 
 const Activite = ({ match }) => {
 	const activity = match.params.activite
@@ -12,7 +15,7 @@ const Activite = ({ match }) => {
 		window.location.href = '/'
 	}
 	return (
-		<>
+		<section className={style['activity-wrapper']}>
 			<MetaTags>
 				<title>{data[activity].metaTags.title}</title>
 				<meta name="description" content={data[activity].metaTags.title} />
@@ -31,7 +34,8 @@ const Activite = ({ match }) => {
 				title3={data[activity].informations.title3}
 				subtitle3={data[activity].informations.subtitle3}
 			/>
-		</ >
+			<Contacts contactsData={data[activity].contacts} />
+		</section>
 	);
 };
 

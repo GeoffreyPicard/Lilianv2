@@ -13,26 +13,28 @@ const Map = () => {
       'pk.eyJ1IjoiZ2VvZmZyZXlwaWNhcmQiLCJhIjoiY2s5dHRsMGswMWhqYTNscWh0dWdieTN0dSJ9.cp3d9WA61k-ebILf_8YTBA'
   });
   return (
-    <div className={style.map}>
-      <Map
-        style="mapbox://styles/geoffreypicard/ck9tw0quz0r531imlt5wdxq38"
-        center={[2.759046, 44.803210]}
-        containerStyle={{
-          height: isDesktop ? '300px' : '100%',
-          width: isDesktop ? '400px' : '100%',
-        }}
-      >
-        <Layer type="symbol" id="marker" layout={{ 'icon-image': 'marker-15' }}>
-          <Feature coordinates={[2.759046, 44.803210]} />
-          <img src={imageBuron} />
-        </Layer>
-        <Marker
-          coordinates={[2.759046, 44.803210]}
-          anchor="bottom">
-          <img src={imageBuron} />
-        </Marker>
-      </Map>
-    </div >
+    <div className={style['map-wrapper']}>
+      <div className={style.map}>
+        <Map
+          style="mapbox://styles/geoffreypicard/ck9tw0quz0r531imlt5wdxq38"
+          center={[2.759046, 44.803210]}
+          containerStyle={{
+            height: isDesktop ? '300px' : '100%',
+            width: isDesktop ? '400px' : '100%',
+          }}
+        >
+          <Layer type="symbol" id="marker" layout={{ 'icon-image': 'marker-15' }}>
+            <Feature coordinates={[2.759046, 44.803210]} />
+            <img src={imageBuron} />
+          </Layer>
+          <Marker
+            coordinates={[2.759046, 44.803210]}
+            anchor="bottom">
+            <img src={imageBuron} />
+          </Marker>
+        </Map>
+      </div >
+    </div>
   )
 }
 

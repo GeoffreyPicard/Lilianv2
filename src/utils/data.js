@@ -12,6 +12,14 @@ export const data = {
 			title3: 'Tarifs',
 			subtitle3: ['Gratuit']
 		},
+		contacts: {
+			phone: '06 40 45 48 95',
+			photo: '../../asset/img/profile.png',
+			diplome: 'Président Association VTT de l’Argence',
+			name: 'Julien Rispal',
+			email: 'julien.rispal01@gmail.com',
+			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
+		},
 		metaTags: {
 			title: 'Vtt de descente',
 			description: 'Venez découvrir le VTT de descente dans les gorges de la Truyère sur pistes de la Cadène.'
@@ -29,6 +37,14 @@ export const data = {
 			subtitle2: ['Site en libre accès toute l’année', 'Encadrement sur réservation toute l’année', 'Location de matériel sur réservation toute l’année'],
 			title3: 'Tarifs',
 			subtitle3: ['À partir de 10€']
+		},
+		contacts: {
+			phone: '07 52 03 66 48',
+			photo: '../../asset/img/aloa_logo.png',
+			diplome: 'Educateur sportif BE escalade',
+			name: 'Serge Laborie',
+			email: 'aloanature@gmail.com',
+			adress: ['Route du pont de mels', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
 		},
 		metaTags: {
 			title: 'Via ferrata',
@@ -48,6 +64,14 @@ export const data = {
 			title3: 'Tarifs',
 			subtitle3: ['À partir de 5€']
 		},
+		contacts: {
+			phone: '07 88 23 17 95',
+			photo: '../../asset/img/profile.png',
+			diplome: 'Educateur sportif',
+			name: 'Lilian Fabre',
+			email: 'fabrelilian@argencesenaubrac.fr',
+			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
+		},
 		metaTags: {
 			title: 'Cerf-volant',
 			description: 'Le cerf-volant est une activité de pleine nature, alliant adresse, précision et technique.'
@@ -56,7 +80,7 @@ export const data = {
 	trottinette: {
 		description: {
 			title: 'Trottinette tout-terrain',
-			text: ['Venez vivre la TROT\' ARGENCES EXPERIENCE ! Avec des trottinettes tout terrain électriques accessibles à tous, partez à l’assaut de l’Aubrac de manière insolite en itinérance, accompagnés d’un moniteur.', 'Pour les débutants, venez tester votre agilité autour du plan d’eau de Sainte Geneviève sur Argence.', 'Plusieurs parcours disponibles l’été sur réservation (distance, niveau, durée)', '• Parcours famille - 1h30 - 2h', '• Parcours aventure - 2h - 2h30', '• Parcours sportif - 2h30', 'Bon cadeau anniversaire, enterrement de vie de garçon / jeune fille, entreprises']
+			text: ['Venez vivre la TROT\' ARGENCES EXPERIENCE ! Avec des trottinettes tout terrain électriques accessibles à tous, partez à l’assaut de l’Aubrac de manière insolite en itinérance, accompagnés d’un moniteur.', 'Pour les débutants, venez tester votre agilité autour du plan d’eau de Sainte Geneviève sur Argence.', 'Plusieurs parcours disponibles l’été sur réservation (distance, niveau, durée)', '• Parcours famille - 1h30', '• Parcours aventure - 2h - 2h30', '• Parcours sportif - 2h30', 'Bon cadeau anniversaire, enterrement de vie de garçon / jeune fille, entreprises']
 		},
 		informations: {
 			title1: 'Prestations',
@@ -65,6 +89,14 @@ export const data = {
 			subtitle2: ['Encadrement sur réservation toute l’année', 'Location de matériel sur réservation toute l’année'],
 			title3: 'Tarifs',
 			subtitle3: ['À partir de 25€']
+		},
+		contacts: {
+			phone: '07 88 23 17 95',
+			photo: '../../asset/img/profile.png',
+			diplome: 'Educateur sportif',
+			name: 'Lilian Fabre',
+			email: 'fabrelilian@argencesenaubrac.fr',
+			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
 		},
 		metaTags: {
 			title: 'Trottinette tout-terrain',
@@ -84,6 +116,14 @@ export const data = {
 			title3: 'Tarifs',
 			subtitle3: ['Gratuit', 'Fiches à partir de 1€']
 		},
+		contacts: {
+			phone: '05 65 66 19 75',
+			photo: '../../asset/img/profile.png',
+			diplome: 'Educateur sportif',
+			name: 'Lilian Fabre',
+			email: 'fabrelilian@argencesenaubrac.fr',
+			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
+		},
 		metaTags: {
 			title: 'Randonnée',
 			description: 'Vous aimez marcher ? Argences en Aubrac est votre destination !'
@@ -101,6 +141,14 @@ export const data = {
 			subtitle2: ['Toute l’année sur réservation', 'L’été en initiation'],
 			title3: 'Tarifs',
 			subtitle3: ['À partir de 15€']
+		},
+		contacts: {
+			phone: '07 88 23 17 95',
+			photo: '../../asset/img/profile.png',
+			diplome: 'Educateur sportif',
+			name: 'Lilian Fabre',
+			email: 'fabrelilian@argencesenaubrac.fr',
+			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
 		},
 		metaTags: {
 			title: 'Tir à l\'arc',
@@ -120,6 +168,14 @@ export const data = {
 			title3: 'Tarifs',
 			subtitle3: ['À partir de 12 €']
 		},
+		contacts: {
+			phone: '07 52 03 66 48',
+			photo: '../../asset/img/aloa_logo.png',
+			diplome: 'Educateur sportif BE escalade',
+			name: 'Serge Laborie',
+			email: 'aloanature@gmail.com',
+			adress: ['Route du pont de mels', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
+		},
 		metaTags: {
 			title: 'Accrobranche',
 			description: 'Prenez de la hauteur dans les arbres, dans un cadre sauvage et préservé ou vous évolurez en autonomie.'
@@ -137,6 +193,14 @@ export const data = {
 			subtitle2: ['De Juin à septembre en fonction des conditions météos'],
 			title3: 'Tarifs',
 			subtitle3: ['À partir de 48€', 'Tarifs dégressifs']
+		},
+		contacts: {
+			phone: '07 52 03 66 48',
+			photo: '../../asset/img/aloa_logo.png',
+			diplome: 'Educateur sportif BE escalade',
+			name: 'Serge Laborie',
+			email: 'aloanature@gmail.com',
+			adress: ['Route du pont de mels', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
 		},
 		metaTags: {
 			title: 'Canyoning',
@@ -156,6 +220,15 @@ export const data = {
 			title3: 'Tarifs',
 			subtitle3: ['À partir de 4€']
 		},
+		contacts: {
+			phone: '07 88 23 17 95',
+			email: 'fabrelilian@argencesenaubrac.fr',
+			photo: '../../asset/img/profile.png',
+			diplome: 'Educateur sportif',
+			name: 'Lilian Fabre',
+			email: 'fabrelilian@argencesenaubrac.fr',
+			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
+		},
 		metaTags: {
 			title: 'Disc-golf',
 			description: 'Découvrez une nouvelle discipline, le disc-golf, sur un parcours naturel au plan d\'eau de la Vignotte à sainte Geneviève sur Argence.'
@@ -173,6 +246,14 @@ export const data = {
 			subtitle2: ['Du 01/07 au 31/08'],
 			title3: 'Tarifs',
 			subtitle3: ['À partir de 4€']
+		},
+		contacts: {
+			phone: '07 88 23 17 95',
+			photo: '../../asset/img/profile.png',
+			diplome: 'Educateur sportif',
+			name: 'Lilian Fabre',
+			email: 'fabrelilian@argencesenaubrac.fr',
+			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
 		},
 		metaTags: {
 			title: 'Sports d\'eau',
@@ -192,6 +273,14 @@ export const data = {
 			title3: 'Tarifs',
 			subtitle3: ['Tarif carte de pêche']
 		},
+		contacts: {
+			phone: '07 88 23 17 95',
+			photo: '../../asset/img/profile.png',
+			diplome: 'Educateur sportif',
+			name: 'Lilian Fabre',
+			email: 'fabrelilian@argencesenaubrac.fr',
+			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
+		},
 		metaTags: {
 			title: 'Pêche',
 			description: 'La pêche est votre passion ? Argences en Aubrac est votre destination !'
@@ -200,7 +289,7 @@ export const data = {
 	trampoline: {
 		description: {
 			title: 'Trampoline',
-			text: ['Envie de prendre de la hauteur, venez découvrir une activité fun, ludique et accessible à tous. Sur réservation, séance de Trampoline à Lacalm et au plan d’eau de Sainte Geneviève']
+			text: ['Envie de prendre de la hauteur, venez découvrir une activité fun, ludique et accessible à tous. Sur réservation, séance de Trampoline à Lacalm']
 		},
 		informations: {
 			title1: 'Prestations',
@@ -210,6 +299,14 @@ export const data = {
 			title3: 'Tarifs',
 			subtitle3: ['À partir de 5€']
 		},
+		contacts: {
+			phone: '07 88 23 17 95',
+			photo: '../../asset/img/profile.png',
+			diplome: 'Educateur sportif',
+			name: 'Lilian Fabre',
+			email: 'fabrelilian@argencesenaubrac.fr',
+			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
+		},
 		metaTags: {
 			title: 'Trampoline',
 			description: 'Venez vivre une expérience à rebondissement !'
@@ -218,7 +315,7 @@ export const data = {
 	'vtt-electrique': {
 		description: {
 			title: 'VTT à assistance électrique',
-			text: ['Au plan d’eau de Sainte Geneviève, partez à la découverte du territoire avec nos VTT à Assistance Électrique. Parcourez l’Argence sans difficulté. Avec une grande autonomie, vous pouvez partir à la journée où à la demi-journée.', 'Découvrez également le tout nouveau parcours labélisé VTT FFC au départ de Graissac (Balisage Courant 2020)', 'Tracé GPS sur le lien suivant :'],
+			text: ['Au plan d’eau de Sainte Geneviève, partez à la découverte du territoire avec nos VTT à Assistance Électrique. Parcourez l’Argence sans difficulté. Avec une grande autonomie, vous pouvez partir à la journée où à la demi-journée.', 'Découvrez également le tout nouveau parcours labélisé VTT FFC au départ de Graissac', 'Tracé GPS sur le lien suivant :'],
 			link: 'https://www.openrunner.com/r/8114692'
 		},
 		informations: {
@@ -228,6 +325,14 @@ export const data = {
 			subtitle2: ['Toute l\'année sur réservation'],
 			title3: 'Tarifs',
 			subtitle3: ['Sur demande', 'Tarif de groupe', 'À la demi-journée', 'À la journée', 'À la semaine']
+		},
+		contacts: {
+			phone: '07 88 23 17 95',
+			photo: '../../asset/img/profile.png',
+			diplome: 'Educateur sportif',
+			name: 'Lilian Fabre',
+			email: 'fabrelilian@argencesenaubrac.fr',
+			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
 		},
 		metaTags: {
 			title: 'Trampoline',
