@@ -2,7 +2,7 @@ import React from 'react';
 import style from './Header.module.css';
 import Commune from '../../../asset/img/commune.png';
 import StationVerte from '../../../asset/img/station_verte.png';
-import Laurier from '../../../asset/img/laurier.png';
+import Laurier from '../../../asset/img/laurier.jpg';
 import { Link } from 'react-router-dom';
 
 
@@ -18,7 +18,7 @@ const Header = () => {
 					}>
 						<div className={style.title}>
 							Argences en aubrac
-							</div>
+						</div>
 					</Link>
 				</div>
 				<div className={style['logos-right']}>

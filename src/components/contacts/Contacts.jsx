@@ -1,18 +1,20 @@
 import React from 'react';
 import style from './contacts.module.css';
 import background from '../../asset/img/prof1.png'
+import lilianImg from '../../asset/img/profile.png'
 
 const Contacts = ({ contactsData }) => {
 	if (!contactsData) {
 		contactsData = {
 			phone: '07 88 23 17 95',
-			photo: '../../asset/img/profile.png',
+			photo: lilianImg,
 			diplome: 'Educateur sportif',
 			name: 'Lilian Fabre',
 			email: 'fabrelilian@argencesenaubrac.fr',
 			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
 		}
 	}
+	console.log(contactsData)
 	return (
 		<section className={style.contacts}>
 			<div className={style.title}>
@@ -23,7 +25,7 @@ const Contacts = ({ contactsData }) => {
 					<div className={style['center-cropped']}>
 						<img className={style.img} src={background} ></img>
 					</div>
-					<img className={style.profilePhoto} src={require('../../asset/img/profile.png')} alt="profile" />
+					<img className={style.profilePhoto} src={contactsData.photo} alt="profile" />
 				</div>
 				<div className={style['profile-wrapper']}>
 					<div className={style.name}>{contactsData.name}</div>

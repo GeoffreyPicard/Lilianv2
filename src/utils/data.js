@@ -1,3 +1,7 @@
+import lilianImg from '../asset/img/profile.png'
+import aloaImg from '../asset/img/aloa_logo.png'
+import julienImg from '../asset/img/julien_rispal.jpg'
+
 export const data = {
 	vtt: {
 		description: {
@@ -14,7 +18,7 @@ export const data = {
 		},
 		contacts: {
 			phone: '06 40 45 48 95',
-			photo: '../../asset/img/profile.png',
+			photo: julienImg,
 			diplome: 'Président Association VTT de l’Argence',
 			name: 'Julien Rispal',
 			email: 'julien.rispal01@gmail.com',
@@ -40,7 +44,7 @@ export const data = {
 		},
 		contacts: {
 			phone: '07 52 03 66 48',
-			photo: '../../asset/img/aloa_logo.png',
+			photo: aloaImg,
 			diplome: 'Educateur sportif BE escalade',
 			name: 'Serge Laborie',
 			email: 'aloanature@gmail.com',
@@ -66,7 +70,7 @@ export const data = {
 		},
 		contacts: {
 			phone: '07 88 23 17 95',
-			photo: '../../asset/img/profile.png',
+			photo: lilianImg,
 			diplome: 'Educateur sportif',
 			name: 'Lilian Fabre',
 			email: 'fabrelilian@argencesenaubrac.fr',
@@ -92,7 +96,7 @@ export const data = {
 		},
 		contacts: {
 			phone: '07 88 23 17 95',
-			photo: '../../asset/img/profile.png',
+			photo: lilianImg,
 			diplome: 'Educateur sportif',
 			name: 'Lilian Fabre',
 			email: 'fabrelilian@argencesenaubrac.fr',
@@ -118,7 +122,7 @@ export const data = {
 		},
 		contacts: {
 			phone: '05 65 66 19 75',
-			photo: '../../asset/img/profile.png',
+			photo: lilianImg,
 			diplome: 'Educateur sportif',
 			name: 'Lilian Fabre',
 			email: 'fabrelilian@argencesenaubrac.fr',
@@ -144,7 +148,7 @@ export const data = {
 		},
 		contacts: {
 			phone: '07 88 23 17 95',
-			photo: '../../asset/img/profile.png',
+			photo: lilianImg,
 			diplome: 'Educateur sportif',
 			name: 'Lilian Fabre',
 			email: 'fabrelilian@argencesenaubrac.fr',
@@ -170,7 +174,7 @@ export const data = {
 		},
 		contacts: {
 			phone: '07 52 03 66 48',
-			photo: '../../asset/img/aloa_logo.png',
+			photo: aloaImg,
 			diplome: 'Educateur sportif BE escalade',
 			name: 'Serge Laborie',
 			email: 'aloanature@gmail.com',
@@ -196,7 +200,7 @@ export const data = {
 		},
 		contacts: {
 			phone: '07 52 03 66 48',
-			photo: '../../asset/img/aloa_logo.png',
+			photo: aloaImg,
 			diplome: 'Educateur sportif BE escalade',
 			name: 'Serge Laborie',
 			email: 'aloanature@gmail.com',
@@ -223,7 +227,7 @@ export const data = {
 		contacts: {
 			phone: '07 88 23 17 95',
 			email: 'fabrelilian@argencesenaubrac.fr',
-			photo: '../../asset/img/profile.png',
+			photo: lilianImg,
 			diplome: 'Educateur sportif',
 			name: 'Lilian Fabre',
 			email: 'fabrelilian@argencesenaubrac.fr',
@@ -249,7 +253,7 @@ export const data = {
 		},
 		contacts: {
 			phone: '07 88 23 17 95',
-			photo: '../../asset/img/profile.png',
+			photo: lilianImg,
 			diplome: 'Educateur sportif',
 			name: 'Lilian Fabre',
 			email: 'fabrelilian@argencesenaubrac.fr',
@@ -275,7 +279,7 @@ export const data = {
 		},
 		contacts: {
 			phone: '07 88 23 17 95',
-			photo: '../../asset/img/profile.png',
+			photo: lilianImg,
 			diplome: 'Educateur sportif',
 			name: 'Lilian Fabre',
 			email: 'fabrelilian@argencesenaubrac.fr',
@@ -301,7 +305,7 @@ export const data = {
 		},
 		contacts: {
 			phone: '07 88 23 17 95',
-			photo: '../../asset/img/profile.png',
+			photo: lilianImg,
 			diplome: 'Educateur sportif',
 			name: 'Lilian Fabre',
 			email: 'fabrelilian@argencesenaubrac.fr',
@@ -328,7 +332,7 @@ export const data = {
 		},
 		contacts: {
 			phone: '07 88 23 17 95',
-			photo: '../../asset/img/profile.png',
+			photo: lilianImg,
 			diplome: 'Educateur sportif',
 			name: 'Lilian Fabre',
 			email: 'fabrelilian@argencesenaubrac.fr',
