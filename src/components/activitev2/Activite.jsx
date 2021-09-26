@@ -8,7 +8,6 @@ import MetaTags from 'react-meta-tags';
 import Contacts from '../contacts/Contacts';
 import style from './activite.module.css'
 
-
 const Activite = ({ match }) => {
 	const activity = match.params.activite
 	if (!sideBarLinks.includes(activity)) {
@@ -34,6 +33,7 @@ const Activite = ({ match }) => {
 				title3={data[activity].informations.title3}
 				subtitle3={data[activity].informations.subtitle3}
 			/>
+			<hr className={style.line} />
 			<Contacts contactsData={data[activity].contacts} />
 		</section>
 	);

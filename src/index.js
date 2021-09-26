@@ -15,12 +15,6 @@ const app = {
 	width: '100%'
 };
 
-const line = {
-	width: '40%',
-	marginTop: '50px',
-	marginBottom: '50px'
-};
-
 const Wrapper = () => {
 	return (
 		<div className={style['main-page']}>
@@ -29,7 +23,6 @@ const Wrapper = () => {
 			</Desktop>
 			<Route exact path="/" component={Home} />
 			<Route exact path="/activite/:activite" component={Activitev2} />
-			<hr style={line} />
 			<Footer />
 		</div>
 	)
