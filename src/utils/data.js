@@ -247,7 +247,7 @@ export const data = {
 			title1: 'Prestations',
 			subtitle1: ['Encadrement', 'Location de matériel'],
 			title2: 'Ouverture',
-			subtitle2: ['Du 01/07 au 31/08'],
+			subtitle2: ['Du 01/07 au 31/08', 'Entre 13h10 à 19h'],
 			title3: 'Tarifs',
 			subtitle3: ['À partir de 4€']
 		},
