@@ -73,7 +73,7 @@ export const data = {
 			photo: lilianImg,
 			diplome: 'Educateur sportif',
 			name: 'Lilian Fabre',
-			email: 'fabrelilian@argencesenaubrac.fr',
+			email: 'servicedessports@argencesenaubrac.fr',
 			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
 		},
 		metaTags: {
@@ -99,7 +99,7 @@ export const data = {
 			photo: lilianImg,
 			diplome: 'Educateur sportif',
 			name: 'Lilian Fabre',
-			email: 'fabrelilian@argencesenaubrac.fr',
+			email: 'servicedessports@argencesenaubrac.fr',
 			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
 		},
 		metaTags: {
@@ -125,7 +125,7 @@ export const data = {
 			photo: lilianImg,
 			diplome: 'Educateur sportif',
 			name: 'Lilian Fabre',
-			email: 'fabrelilian@argencesenaubrac.fr',
+			email: 'servicedessports@argencesenaubrac.fr',
 			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
 		},
 		metaTags: {
@@ -151,7 +151,7 @@ export const data = {
 			photo: lilianImg,
 			diplome: 'Educateur sportif',
 			name: 'Lilian Fabre',
-			email: 'fabrelilian@argencesenaubrac.fr',
+			email: 'servicedessports@argencesenaubrac.fr',
 			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
 		},
 		metaTags: {
@@ -226,11 +226,11 @@ export const data = {
 		},
 		contacts: {
 			phone: '07 88 23 17 95',
-			email: 'fabrelilian@argencesenaubrac.fr',
+			email: 'servicedessports@argencesenaubrac.fr',
 			photo: lilianImg,
 			diplome: 'Educateur sportif',
 			name: 'Lilian Fabre',
-			email: 'fabrelilian@argencesenaubrac.fr',
+			email: 'servicedessports@argencesenaubrac.fr',
 			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
 		},
 		metaTags: {
@@ -256,7 +256,7 @@ export const data = {
 			photo: lilianImg,
 			diplome: 'Educateur sportif',
 			name: 'Lilian Fabre',
-			email: 'fabrelilian@argencesenaubrac.fr',
+			email: 'servicedessports@argencesenaubrac.fr',
 			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
 		},
 		metaTags: {
@@ -282,7 +282,7 @@ export const data = {
 			photo: lilianImg,
 			diplome: 'Educateur sportif',
 			name: 'Lilian Fabre',
-			email: 'fabrelilian@argencesenaubrac.fr',
+			email: 'servicedessports@argencesenaubrac.fr',
 			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
 		},
 		metaTags: {
@@ -308,7 +308,7 @@ export const data = {
 			photo: lilianImg,
 			diplome: 'Educateur sportif',
 			name: 'Lilian Fabre',
-			email: 'fabrelilian@argencesenaubrac.fr',
+			email: 'servicedessports@argencesenaubrac.fr',
 			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
 		},
 		metaTags: {
@@ -335,7 +335,7 @@ export const data = {
 			photo: lilianImg,
 			diplome: 'Educateur sportif',
 			name: 'Lilian Fabre',
-			email: 'fabrelilian@argencesenaubrac.fr',
+			email: 'servicedessports@argencesenaubrac.fr',
 			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
 		},
 		metaTags: {

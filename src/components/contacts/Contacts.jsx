@@ -10,7 +10,7 @@ const Contacts = ({ contactsData }) => {
 			photo: lilianImg,
 			diplome: 'Educateur sportif',
 			name: 'Lilian Fabre',
-			email: 'fabrelilian@argencesenaubrac.fr',
+			email: 'servicedessports@argencesenaubrac.fr',
 			adress: ['Service des sports de la commune d\'Argences en Aubrac', 'Mairie – Place des Tilleuls', 'Ste Geneviève sur Argence', '12420 Argences-en-Aubrac']
 		}
 	}
